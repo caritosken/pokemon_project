@@ -219,11 +219,7 @@ WHERE
 				FROM
 					pokemon p2
 				WHERE p2.generation = p1.generation);
-	
-SELECT AVG(sp_defense)
-FROM
-	pokemon
-WHERE generation = 1;
+
 
 
                     
