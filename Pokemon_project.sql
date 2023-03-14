@@ -185,6 +185,13 @@ FROM
 	pokemon
 WHERE name REGEXP 'Mega' and type1 in ('fire','water','grass');
 
+SELECT
+	name,
+    'Mega_Evolution' as Evolution
+FROM
+	pokemon
+WHERE name like 'Mega%';
+
 /* whos the highest defense/sp_defense per generations*/
 
 SELECT
